@@ -1,0 +1,301 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(174, 175, 175);
+}
+
+.container-contacto {
+  display: grid;
+  padding: 20px;
+  gap: 10px;
+  width: 100%;
+  background-color: #292828;
+}
+.container-contacto .box-info {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.container-contacto .box-info h1 {
+  text-align: left;
+  letter-spacing: 5px;
+}
+.container-contacto .data-contacto {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  gap: 25px;
+}
+.container-contacto .data-contacto p {
+  font-size: 1rem;
+}
+.container-contacto .data-contacto p i {
+  color: rgb(248, 134, 27);
+  margin-right: 10px;
+  font-size: 25px;
+}
+.container-contacto form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 15px;
+}
+.container-contacto form .input-box {
+  position: relative;
+}
+.container-contacto form .input-box input {
+  width: 30vw;
+  height: 40px;
+  padding: 0 10px;
+  outline: none;
+  background: rgba(255, 255, 255, 0.1);
+  border: 3px solid transparent;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+.container-contacto form .input-box input:focus {
+  border-bottom: 3px solid rgb(248, 134, 27);
+}
+.container-contacto form .input-box i {
+  color: rgba(255, 255, 255, 0.3);
+  position: absolute;
+  top: 10%;
+  transform: translateY(50%);
+  right: 10px;
+  transition: 0.3s;
+}
+.container-contacto form .input-box textarea {
+  width: 30vw;
+  height: 130px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 3px solid transparent;
+  letter-spacing: 1px;
+  outline: none;
+  transition: 0.3s;
+  letter-spacing: 1.5px;
+}
+.container-contacto form .input-box textarea:focus {
+  border-bottom: 3px solid rgb(248, 134, 27);
+}
+.container-contacto button {
+  padding: 10px;
+  width: 20vw;
+  outline: none;
+  background: rgb(248, 134, 27);
+  color: #fff;
+  border: none;
+  transition: 0.1s;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.container-contacto button:hover {
+  background: rgb(161, 86, 0);
+}
+.container-contacto .links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 30px;
+}
+.container-contacto .links a {
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  background: rgb(248, 134, 27);
+  text-align: center;
+  transition: 0.1s;
+}
+.container-contacto .links a:hover {
+  background: rgb(161, 86, 0);
+}
+.container-contacto .links a i {
+  color: #fff;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+.container .image-container {
+  flex: 1;
+  margin-right: 20px;
+}
+.container .image-container img {
+  border-radius: 20px;
+  box-shadow: 0 0 50px;
+  background-color: rgb(255, 255, 255);
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  padding: 20px;
+}
+.container .image-container:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+.container .description {
+  flex: 2;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 50px rgb(0, 0, 0);
+  background-color: rgb(248, 134, 27);
+  font-size: 25px;
+  font-family: inherit;
+}
+
+.title-nosotros {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bolder;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #222;
+  margin-top: 40px;
+}
+
+.img-equipos {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.img-equipos img {
+  width: 30vw;
+  margin: 10px;
+}
+.img-equipos img:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+.img-nosotros {
+  display: flex;
+  justify-content: center;
+}
+
+.lead {
+  font-size: 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.container-nosotros {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.container-nosotros img {
+  width: 14vw;
+  margin: 15px;
+}
+.container-nosotros img:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+.title-jugadores {
+  font-size: 3rem;
+  font-weight: bolder;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #222;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+.card-container .card {
+  width: 225px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+}
+.card-container .card img {
+  width: 100%;
+  height: auto;
+}
+.card-container .card:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+  background-color: rgb(248, 134, 27);
+}
+.card-container .card-content {
+  padding: 1rem;
+}
+.card-container .card-content h3 {
+  font-size: 25px;
+  margin-bottom: 8px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.card-container .card-content p {
+  color: #000000;
+  font-size: 1rem;
+  line-height: 1.3;
+  text-align: center;
+  font-family: monospace;
+}
+
+.container-gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 40px 20px 0 20px;
+}
+.container-gallery .gallery {
+  width: 50%;
+  padding-bottom: 50px;
+}
+.container-gallery .gallery h3 {
+  font-size: 3rem;
+  font-weight: bolder;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #222;
+}
+.container-gallery .box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-gallery .box .box-img {
+  display: flex;
+  flex-direction: column;
+  width: 32.5%;
+}
+.container-gallery .box .box-img img {
+  width: 100%;
+  padding-bottom: 15px;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 769px) {
+  .box {
+    flex-direction: column;
+  }
+  .box .box-img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=styles.css.map */
