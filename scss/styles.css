@@ -23,7 +23,7 @@ body {
   gap: 50px;
 }
 .container-contacto .box-info h1 {
-  text-align: left;
+  text-align: center;
   letter-spacing: 5px;
 }
 .container-contacto .data-contacto {
@@ -242,7 +242,7 @@ body {
 .card-container .card-content {
   padding: 1rem;
 }
-.card-container .card-content h3 {
+.card-container .card-content h2 {
   font-size: 25px;
   margin-bottom: 8px;
   text-align: center;
@@ -268,7 +268,7 @@ body {
   width: 50%;
   padding-bottom: 50px;
 }
-.container-gallery .gallery h3 {
+.container-gallery .gallery h1 {
   font-size: 3rem;
   font-weight: bolder;
   padding-bottom: 10px;
